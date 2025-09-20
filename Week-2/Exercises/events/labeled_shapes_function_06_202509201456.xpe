@@ -1,0 +1,16 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Sat Sep 20 2025 14:56:32
+#sha1: c60d4f
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+11854,design,log,
+#design: #exp: Labeled Shapes Function
+#design: block_cnt,block_id,trial_cnt,trial_id
+11854,design,logged,
+11854,Experiment,started
+11874,Stimulus,presented,6
+20305,Keyboard,received,13,wait
+20305,Experiment,ended
+20332,Stimulus,presented,11

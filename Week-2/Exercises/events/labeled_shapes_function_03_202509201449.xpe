@@ -1,0 +1,21 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Sat Sep 20 2025 14:49:10
+#sha1: c60d4f
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+13665,design,log,
+#design: #exp: Labeled Shapes Function
+#design: block_cnt,block_id,trial_cnt,trial_id
+13665,design,logged,
+13665,Experiment,started
+13689,Stimulus,presented,6
+85282,stderr,received,'Traceback (most recent call last):'
+85284,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-2\\Exercises\\labeled_shapes_function.py", line 70, in <module>'
+85291,stderr,received,'    exp.keyboard.wait()'
+85291,stderr,received,'  File "C:\\Users\\omriz\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 324, in wait'
+85341,stderr,received,'    _internals.active_exp.mouse.process_quit_event():'
+85341,stderr,received,'  File "C:\\Users\\omriz\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\expyriment\\design\\_structure.py", line 187, in mouse'
+85343,stderr,received,'    @property'
+85343,stderr,received,'KeyboardInterrupt'

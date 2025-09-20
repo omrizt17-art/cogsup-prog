@@ -8,11 +8,11 @@ fixation = stimuli.FixCross()
 
 control.start()
 
-square.present()                      # draw square
-fixation.present(clear=False)         # draw fixation on top
-exp.clock.wait(500)                   # wait 0.5 sec
+square.present()
+fixation.present(clear=False)
+exp.clock.wait(500)
 
-square.present(clear=True)            # show only square
-exp.keyboard.wait()                   # wait for key press
+square.present(clear=True)
+exp.keyboard.wait()
 
 control.end()
