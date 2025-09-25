@@ -1,0 +1,17 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Sat Sep 20 2025 12:35:17
+#sha1: 25168b
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+12059,design,log,
+#design: #exp: Launching
+#design: block_cnt,block_id,trial_cnt,trial_id
+12059,design,logged,
+12059,Experiment,started
+12087,Stimulus,presented,4
+13087,stderr,received,'Traceback (most recent call last):'
+13087,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-2\\Exercises\\launching.py", line 23, in <module>'
+13088,stderr,received,'    red.move(5, 0)   # move right 5 px'
+13088,stderr,received,'TypeError: move() takes 2 positional arguments but 3 were given'
