@@ -1,0 +1,16 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 19:38:55
+#sha1: 10278b
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1181,Stimulus,presented,0
+156401,stderr,received,'Traceback (most recent call last):'
+156403,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-3\\Exercises\\hermann-grid.py", line 73, in <module>'
+156411,stderr,received,'    hermann_grid(square_size=100,'
+156411,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-3\\Exercises\\hermann-grid.py", line 67, in hermann_grid'
+156411,stderr,received,'    exp.keyboard.wait()'
+156411,stderr,received,'  File "C:\\Users\\omriz\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 343, in wait'
+156500,stderr,received,'    time.sleep(0.0005)'
+156500,stderr,received,'KeyboardInterrupt'

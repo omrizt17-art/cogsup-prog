@@ -1,0 +1,21 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Wed Sep 24 2025 19:22:48
+#sha1: 8a29d3
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+10825,design,log,
+#design: #exp: Display Edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+10825,design,logged,
+10825,Experiment,started
+10829,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x000001F10E11C5E0>'
+10829,stderr,received,'Traceback (most recent call last):'
+10829,stderr,received,'  File "C:\\Users\\omriz\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 270, in __del__'
+10832,stderr,received,'    if self._compression_filename is not None:'
+10832,stderr,received,"AttributeError: 'Canvas' object has no attribute '_compression_filename'"
+10832,stderr,received,'Traceback (most recent call last):'
+10832,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-3\\Exercises\\demo_class3.py", line 36, in <module>'
+10832,stderr,received,'    canvas = stimuli.Canvas()'
+10832,stderr,received,"TypeError: __init__() missing 1 required positional argument: 'size'"

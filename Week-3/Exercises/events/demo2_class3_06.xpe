@@ -1,0 +1,25 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Wed Sep 24 2025 19:34:51
+#sha1: df691c
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+842,stdout,received,'Screen size: 800 x 600'
+842,stdout,received,'Square size: 40 pixels'
+842,stdout,received,'Adjusted square size: 40 pixels'
+842,stdout,received,'Positions:'
+842,stdout,received,'Top left: (-380, 280)'
+842,stdout,received,'Top right: (380, 280)'
+842,stdout,received,'Bottom left: (-380, -280)'
+842,stdout,received,'Bottom right: (380, -280)'
+4708,design,log,
+#design: #exp: Display Edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+4708,design,logged,
+4708,Experiment,started
+4717,Stimulus,presented,5
+4717,stdout,received,'Canvas presented - you should see 4 red filled squares at the corners'
+4717,stdout,received,'Press any key to continue...'
+7704,Keyboard,received,13,wait
+7704,Experiment,ended

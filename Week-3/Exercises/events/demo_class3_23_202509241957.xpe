@@ -1,0 +1,17 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Wed Sep 24 2025 19:57:22
+#sha1: 76db72
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+4971,stdout,received,'Screen size: 1920 x 1080'
+10731,design,log,
+#design: #exp: Display Edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+10731,design,logged,
+10731,Experiment,started
+10732,stderr,received,'Traceback (most recent call last):'
+10732,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-3\\Exercises\\demo_class3.py", line 44, in <module>'
+10733,stderr,received,'    control.wait(500)  # wait 500 milliseconds'
+10733,stderr,received,"AttributeError: module 'expyriment.control' has no attribute 'wait'"

@@ -1,0 +1,17 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Wed Sep 24 2025 19:12:18
+#sha1: c9fec4
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+4961,stdout,received,'1920 1080'
+10927,design,log,
+#design: #exp: Display Edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+10928,design,logged,
+10928,Experiment,started
+10950,Stimulus,presented,6
+11540,Keyboard,received,13,wait
+11540,Experiment,ended
+11564,Stimulus,presented,7

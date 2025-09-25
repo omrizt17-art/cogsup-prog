@@ -1,0 +1,12 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 19:56:10
+#sha1: d477ab
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+508,stdout,received,'800 600'
+526,Stimulus,presented,4
+8552,Keyboard,received,8,wait
+8552,Experiment,ended
+8640,Stimulus,presented,5

@@ -1,0 +1,16 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Wed Sep 24 2025 21:11:44
+#sha1: 867ca3
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+918,stdout,received,'800 600'
+2123,design,log,
+#design: #exp: display edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+2123,design,logged,
+2123,Experiment,started
+2139,Stimulus,presented,5
+2975,Keyboard,received,13,wait
+2975,Experiment,ended
