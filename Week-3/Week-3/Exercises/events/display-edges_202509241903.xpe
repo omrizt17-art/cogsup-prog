@@ -1,0 +1,17 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Wed Sep 24 2025 19:03:28
+#sha1: a8a8fd
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+4815,stdout,received,'1920 1080'
+4817,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x0000025C84FAC5E0>'
+4817,stderr,received,'Traceback (most recent call last):'
+4817,stderr,received,'  File "C:\\Users\\omriz\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 270, in __del__'
+4819,stderr,received,'    if self._compression_filename is not None:'
+4819,stderr,received,"AttributeError: 'Rectangle' object has no attribute '_compression_filename'"
+4819,stderr,received,'Traceback (most recent call last):'
+4819,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-3\\Exercises\\display-edges.py", line 13, in <module>'
+4819,stderr,received,'    top_left_square = stimuli.Rectangle(size=(size_square, size_square),'
+4819,stderr,received,"TypeError: __init__() got an unexpected keyword argument 'line_colour'"

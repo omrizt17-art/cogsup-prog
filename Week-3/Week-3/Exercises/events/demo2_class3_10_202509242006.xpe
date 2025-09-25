@@ -1,0 +1,21 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Wed Sep 24 2025 20:06:02
+#sha1: b79fb8
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+4844,stdout,received,'Screen dimensions: 1920x1080'
+4844,stdout,received,'Square size: 96x96'
+10697,design,log,
+#design: #exp: Display Edges
+#design: block_cnt,block_id,trial_cnt,trial_id
+10697,design,logged,
+10697,Experiment,started
+10698,stdout,received,'Experiment started. The full-screen window should now be visible.'
+10718,Stimulus,presented,6
+10819,stdout,received,'Canvas presented. You should see 4 red squares at the screen corners.'
+13709,Keyboard,received,13,wait
+13709,Experiment,ended
+13726,Stimulus,presented,7
+17030,stdout,received,'Experiment ended. Thank you for participating!'

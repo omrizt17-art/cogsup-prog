@@ -1,0 +1,14 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 13:21:20
+#sha1: dd4d89
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1199,Stimulus,presented,0
+50442,stderr,received,'Traceback (most recent call last):'
+50445,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-3\\Exercises\\kanizsa-square.py", line 60, in <module>'
+50453,stderr,received,'    exp.keyboard.wait()  # press any key to quit'
+50453,stderr,received,'  File "C:\\Users\\omriz\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 343, in wait'
+50510,stderr,received,'    time.sleep(0.0005)'
+50510,stderr,received,'KeyboardInterrupt'

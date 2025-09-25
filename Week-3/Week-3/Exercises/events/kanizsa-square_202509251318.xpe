@@ -1,0 +1,15 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 13:18:41
+#sha1: a93df9
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1205,stderr,received,'Traceback (most recent call last):'
+1205,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-3\\Exercises\\kanizsa-square.py", line 53, in <module>'
+1207,stderr,received,'    draw_pacman(position=(-offset, offset), colour=misc.constants.C_BLACK, angle_deg=45)    # top-left'
+1207,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-3\\Exercises\\kanizsa-square.py", line 37, in draw_pacman'
+1207,stderr,received,'    circle.plot(exp.screen)'
+1207,stderr,received,'  File "C:\\Users\\omriz\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 924, in plot'
+1237,stderr,received,'    if not stimulus._set_surface(stimulus._get_surface()):'
+1237,stderr,received,"AttributeError: 'Screen' object has no attribute '_set_surface'"

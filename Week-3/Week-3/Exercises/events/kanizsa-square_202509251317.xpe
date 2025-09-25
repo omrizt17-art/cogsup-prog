@@ -1,0 +1,13 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Thu Sep 25 2025 13:17:49
+#sha1: b1dc39
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+658,stderr,received,'Traceback (most recent call last):'
+658,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-3\\Exercises\\kanizsa-square.py", line 66, in <module>'
+659,stderr,received,'    tl = pacman(position=(-offset, offset), colour=misc.constants.C_BLACK, angle_deg=45)'
+659,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-3\\Exercises\\kanizsa-square.py", line 58, in pacman'
+659,stderr,received,'    stim = stimuli.Composite(elements=[circle, cut])'
+659,stderr,received,"AttributeError: module 'expyriment.stimuli' has no attribute 'Composite'"
