@@ -2,14 +2,27 @@ from expyriment import design, control, stimuli
 import random
 
 def load(stims):
-    pass
+    for stim in stims:
+        stim.preload()
 
 def timed_draw(stims):
-    pass
-    # return the time it took to draw
+    if not stims:
+        raise ValueError("Stimuli list must be nonempty")
+
+    t0 = exp.clock.time  # starting the stopwatch, timestamp before drawing
+    for i, stim in enumerate(stims):
+        stim.present(clear=(i == 0), update=(i == len(
+            stims) - 1))  # drawing the stimulus, clear for the first one and updating only at the last stimulus
+    dt = exp.clock.time - t0  # time of drawing
+    return dt
+
 
 def present_for(stims, t=1000):
-    pass
+    if t <= 0:
+        return
+    dt = timed_draw(stims)  # getting the time it took to draw
+    wait_time = max(0, t - dt)  # time i should wait
+    exp.clock.wait(wait_time)  # time im actually waiting
 
 
 """ Test functions """
