@@ -1,13 +1,11 @@
 from expyriment import design, control, stimuli
 from expyriment.misc.constants import K_SPACE
-def present_for(stims, frames):
+from drawing_functions import present_for
+def present_for_frames(stims, frames): #using present for from drawing functions
     if not stims or frames <= 0:
         return
-    ms = int(round(frames * (1000/60.0)))  #converting frames to ms
-    #drawing the stimuli, clearing first and then presenting all the stimuli
-    for i, stim in enumerate(stims):
-        stim.present(clear=(i == 0), update=(i == len(stims)-1))
-    exp.clock.wait(ms)
+    ms = int(round(frames * (1000/60.0)))
+    present_for(stims, ms)
 
 def make_circles(radius, shift=100):
     y = 0
@@ -28,7 +26,7 @@ def add_tags(circles, tag_radius=10):
         tag.plot(circle)
 
 def run_trial(radius, ISI, with_tags=False):
-    #creating the two frames
+    #creating the two fr ames
     frameA, frameB = make_circles(radius)
     #adding the tags if called for
     if with_tags:
@@ -40,12 +38,12 @@ def run_trial(radius, ISI, with_tags=False):
 
     #running till space is pressed
     while True:
-        present_for(frameA, 12) #presenting frameA
+        present_for_frames(frameA, 12) #presenting frameA
         if ISI > 0:
             blank = stimuli.BlankScreen()
             blank.present()
             exp.clock.wait(int(ISI * (1000/60.0))) #setting the time between frame A and frameB according to the ISI
-        present_for(frameB, 12)     #presenting frameB
+        present_for_frames(frameB, 12)     #presenting frameB
 
         if exp.keyboard.check(K_SPACE):
             break
