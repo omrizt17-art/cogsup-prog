@@ -6,7 +6,7 @@ from expyriment.misc.constants import K_DOWN, K_UP, K_LEFT, K_RIGHT, K_SPACE, K_
 exp = design.Experiment(name="Blindspot", background_colour=C_WHITE, foreground_colour=C_BLACK)
 control.set_develop_mode()
 control.initialize(exp)
-
+exp.add_data_variable_names(["Eye", "Radius", "X", "Y"]) #Setting column names for the data table
 """ Stimuli """
 
 
@@ -48,7 +48,8 @@ def run_trial(side="left"):
         circle.present(clear=False, update=True)
 
         key, rt = exp.keyboard.wait(keys=[K_DOWN, K_UP, K_LEFT, K_RIGHT, K_1, K_2, K_SPACE])
-
+        exp.data.add([side, radius, position[0], position[1]])
+        print(f"Eye: {side}, Radius: {radius}, X: {position[0]}, Y: {position[1]}")
         if key == K_SPACE:  #finishing when pressing space
             break
         elif key == K_LEFT:

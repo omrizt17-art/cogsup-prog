@@ -1,91 +1,405 @@
 #Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
-#date: Wed Oct 08 2025 17:41:34
-#sha1: d42c47
+#date: Fri Oct 10 2025 09:58:00
+#sha1: e1a9e9
 #modules: 
 #display: size=(800, 600), window_mode=True, open_gl=2
 #os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
 Time,Type,Event,Value,Detail,Detail2
-2190,design,log,
+2445,design,log,
 #design: #exp: Blindspot
+#design: #dvn: Eye,Radius,X,Y
 #design: block_cnt,block_id,trial_cnt,trial_id
-2191,design,logged,
-2191,Experiment,started
-2213,Stimulus,presented,1
-4639,Keyboard,received,32,wait
-4671,Stimulus,presented,2
-4675,Stimulus,presented,3
-5533,Keyboard,received,275,wait
-5541,Stimulus,presented,2
-5543,Stimulus,presented,4
-5679,Keyboard,received,275,wait
-5695,Stimulus,presented,2
-5697,Stimulus,presented,5
-5843,Keyboard,received,275,wait
-5862,Stimulus,presented,2
-5864,Stimulus,presented,6
-6052,Keyboard,received,275,wait
-6069,Stimulus,presented,2
-6072,Stimulus,presented,7
-6272,Keyboard,received,276,wait
-6294,Stimulus,presented,2
-6296,Stimulus,presented,8
-6471,Keyboard,received,276,wait
-6489,Stimulus,presented,2
-6492,Stimulus,presented,9
-6625,Keyboard,received,276,wait
-6641,Stimulus,presented,2
-6644,Stimulus,presented,10
-6777,Keyboard,received,276,wait
-6793,Stimulus,presented,2
-6797,Stimulus,presented,11
-6943,Keyboard,received,276,wait
-6959,Stimulus,presented,2
-6965,Stimulus,presented,12
-7111,Keyboard,received,276,wait
-7127,Stimulus,presented,2
-7132,Stimulus,presented,13
-7279,Keyboard,received,276,wait
-7296,Stimulus,presented,2
-7299,Stimulus,presented,14
-7428,Keyboard,received,276,wait
-7446,Stimulus,presented,2
-7448,Stimulus,presented,15
-7596,Keyboard,received,276,wait
-7614,Stimulus,presented,2
-7617,Stimulus,presented,16
-7763,Keyboard,received,275,wait
-7780,Stimulus,presented,2
-7782,Stimulus,presented,17
-11534,Keyboard,received,32,wait
-11568,Stimulus,presented,18
-12392,Keyboard,received,32,wait
-12420,Stimulus,presented,19
-12422,Stimulus,presented,20
-13333,Keyboard,received,276,wait
-13350,Stimulus,presented,19
-13352,Stimulus,presented,21
-13470,Keyboard,received,276,wait
-13487,Stimulus,presented,19
-13490,Stimulus,presented,22
-13657,Keyboard,received,276,wait
-13675,Stimulus,presented,19
-13679,Stimulus,presented,23
-14335,Keyboard,received,32,wait
-14365,Stimulus,presented,24
-15199,Keyboard,received,32,wait
-15224,Stimulus,presented,25
-15226,Stimulus,presented,26
-16017,Keyboard,received,275,wait
-16034,Stimulus,presented,25
-16036,Stimulus,presented,27
-16188,Keyboard,received,275,wait
-16206,Stimulus,presented,25
-16209,Stimulus,presented,28
-16348,Keyboard,received,275,wait
-16366,Stimulus,presented,25
-16369,Stimulus,presented,29
-16807,Keyboard,received,276,wait
-16824,Stimulus,presented,25
-16826,Stimulus,presented,30
-17130,Keyboard,received,32,wait
-17133,Experiment,ended
+2445,design,logged,
+2445,Experiment,started
+2463,Stimulus,presented,1
+3989,Keyboard,received,32,wait
+4020,Stimulus,presented,2
+4023,Stimulus,presented,3
+4964,Keyboard,received,275,wait
+4965,stdout,received,'Eye: left, Radius: 75, X: 0, Y: 0'
+4981,Stimulus,presented,2
+4983,Stimulus,presented,4
+6326,Keyboard,received,275,wait
+6326,stdout,received,'Eye: left, Radius: 75, X: 10, Y: 0'
+6345,Stimulus,presented,2
+6347,Stimulus,presented,5
+6498,Keyboard,received,275,wait
+6498,stdout,received,'Eye: left, Radius: 75, X: 20, Y: 0'
+6512,Stimulus,presented,2
+6513,Stimulus,presented,6
+6628,Keyboard,received,275,wait
+6628,stdout,received,'Eye: left, Radius: 75, X: 30, Y: 0'
+6644,Stimulus,presented,2
+6645,Stimulus,presented,7
+6798,Keyboard,received,275,wait
+6798,stdout,received,'Eye: left, Radius: 75, X: 40, Y: 0'
+6809,Stimulus,presented,2
+6812,Stimulus,presented,8
+6950,Keyboard,received,275,wait
+6951,stdout,received,'Eye: left, Radius: 75, X: 50, Y: 0'
+6969,Stimulus,presented,2
+6971,Stimulus,presented,9
+7105,Keyboard,received,275,wait
+7105,stdout,received,'Eye: left, Radius: 75, X: 60, Y: 0'
+7120,Stimulus,presented,2
+7122,Stimulus,presented,10
+7258,Keyboard,received,275,wait
+7258,stdout,received,'Eye: left, Radius: 75, X: 70, Y: 0'
+7272,Stimulus,presented,2
+7273,Stimulus,presented,11
+7581,Keyboard,received,275,wait
+7581,stdout,received,'Eye: left, Radius: 75, X: 80, Y: 0'
+7600,Stimulus,presented,2
+7602,Stimulus,presented,12
+7750,Keyboard,received,275,wait
+7750,stdout,received,'Eye: left, Radius: 75, X: 90, Y: 0'
+7761,Stimulus,presented,2
+7763,Stimulus,presented,13
+7915,Keyboard,received,275,wait
+7915,stdout,received,'Eye: left, Radius: 75, X: 100, Y: 0'
+7930,Stimulus,presented,2
+7932,Stimulus,presented,14
+8166,Keyboard,received,275,wait
+8166,stdout,received,'Eye: left, Radius: 75, X: 110, Y: 0'
+8178,Stimulus,presented,2
+8179,Stimulus,presented,15
+8527,Keyboard,received,49,wait
+8528,stdout,received,'Eye: left, Radius: 75, X: 120, Y: 0'
+8538,Stimulus,presented,2
+8539,Stimulus,presented,16
+8689,Keyboard,received,49,wait
+8689,stdout,received,'Eye: left, Radius: 70, X: 120, Y: 0'
+8707,Stimulus,presented,2
+8709,Stimulus,presented,17
+8846,Keyboard,received,49,wait
+8846,stdout,received,'Eye: left, Radius: 65, X: 120, Y: 0'
+8861,Stimulus,presented,2
+8864,Stimulus,presented,18
+8994,Keyboard,received,49,wait
+8994,stdout,received,'Eye: left, Radius: 60, X: 120, Y: 0'
+9010,Stimulus,presented,2
+9016,Stimulus,presented,19
+9162,Keyboard,received,49,wait
+9163,stdout,received,'Eye: left, Radius: 55, X: 120, Y: 0'
+9175,Stimulus,presented,2
+9177,Stimulus,presented,20
+9317,Keyboard,received,49,wait
+9317,stdout,received,'Eye: left, Radius: 50, X: 120, Y: 0'
+9328,Stimulus,presented,2
+9331,Stimulus,presented,21
+9480,Keyboard,received,49,wait
+9481,stdout,received,'Eye: left, Radius: 45, X: 120, Y: 0'
+9492,Stimulus,presented,2
+9497,Stimulus,presented,22
+9634,Keyboard,received,49,wait
+9634,stdout,received,'Eye: left, Radius: 40, X: 120, Y: 0'
+9647,Stimulus,presented,2
+9651,Stimulus,presented,23
+9793,Keyboard,received,49,wait
+9793,stdout,received,'Eye: left, Radius: 35, X: 120, Y: 0'
+9801,Stimulus,presented,2
+9804,Stimulus,presented,24
+9949,Keyboard,received,49,wait
+9949,stdout,received,'Eye: left, Radius: 30, X: 120, Y: 0'
+9954,Stimulus,presented,2
+9956,Stimulus,presented,25
+10122,Keyboard,received,49,wait
+10122,stdout,received,'Eye: left, Radius: 25, X: 120, Y: 0'
+10130,Stimulus,presented,2
+10134,Stimulus,presented,26
+10267,Keyboard,received,49,wait
+10267,stdout,received,'Eye: left, Radius: 20, X: 120, Y: 0'
+10273,Stimulus,presented,2
+10274,Stimulus,presented,27
+10450,Keyboard,received,49,wait
+10450,stdout,received,'Eye: left, Radius: 15, X: 120, Y: 0'
+10456,Stimulus,presented,2
+10465,Stimulus,presented,28
+10614,Keyboard,received,49,wait
+10614,stdout,received,'Eye: left, Radius: 10, X: 120, Y: 0'
+10622,Stimulus,presented,2
+10626,Stimulus,presented,29
+10759,Keyboard,received,275,wait
+10759,stdout,received,'Eye: left, Radius: 5, X: 120, Y: 0'
+10768,Stimulus,presented,2
+10771,Stimulus,presented,30
+10933,Keyboard,received,275,wait
+10933,stdout,received,'Eye: left, Radius: 5, X: 130, Y: 0'
+10940,Stimulus,presented,2
+10943,Stimulus,presented,31
+11097,Keyboard,received,275,wait
+11097,stdout,received,'Eye: left, Radius: 5, X: 140, Y: 0'
+11106,Stimulus,presented,2
+11108,Stimulus,presented,32
+11257,Keyboard,received,275,wait
+11258,stdout,received,'Eye: left, Radius: 5, X: 150, Y: 0'
+11262,Stimulus,presented,2
+11263,Stimulus,presented,33
+11418,Keyboard,received,275,wait
+11418,stdout,received,'Eye: left, Radius: 5, X: 160, Y: 0'
+11423,Stimulus,presented,2
+11425,Stimulus,presented,34
+11584,Keyboard,received,275,wait
+11584,stdout,received,'Eye: left, Radius: 5, X: 170, Y: 0'
+11593,Stimulus,presented,2
+11596,Stimulus,presented,35
+11745,Keyboard,received,275,wait
+11746,stdout,received,'Eye: left, Radius: 5, X: 180, Y: 0'
+11754,Stimulus,presented,2
+11756,Stimulus,presented,36
+11894,Keyboard,received,275,wait
+11894,stdout,received,'Eye: left, Radius: 5, X: 190, Y: 0'
+11899,Stimulus,presented,2
+11900,Stimulus,presented,37
+12056,Keyboard,received,275,wait
+12057,stdout,received,'Eye: left, Radius: 5, X: 200, Y: 0'
+12062,Stimulus,presented,2
+12064,Stimulus,presented,38
+12232,Keyboard,received,275,wait
+12232,stdout,received,'Eye: left, Radius: 5, X: 210, Y: 0'
+12240,Stimulus,presented,2
+12242,Stimulus,presented,39
+12421,Keyboard,received,275,wait
+12421,stdout,received,'Eye: left, Radius: 5, X: 220, Y: 0'
+12428,Stimulus,presented,2
+12429,Stimulus,presented,40
+12647,Keyboard,received,274,wait
+12647,stdout,received,'Eye: left, Radius: 5, X: 230, Y: 0'
+12654,Stimulus,presented,2
+12658,Stimulus,presented,41
+12831,Keyboard,received,274,wait
+12831,stdout,received,'Eye: left, Radius: 5, X: 230, Y: -10'
+12837,Stimulus,presented,2
+12839,Stimulus,presented,42
+12846,Keyboard,received,275,wait
+12846,stdout,received,'Eye: left, Radius: 5, X: 230, Y: -20'
+12850,Stimulus,presented,2
+12851,Stimulus,presented,43
+12971,Keyboard,received,275,wait
+12971,stdout,received,'Eye: left, Radius: 5, X: 240, Y: -20'
+12980,Stimulus,presented,2
+12982,Stimulus,presented,44
+13148,Keyboard,received,275,wait
+13148,stdout,received,'Eye: left, Radius: 5, X: 250, Y: -20'
+13153,Stimulus,presented,2
+13155,Stimulus,presented,45
+13321,Keyboard,received,275,wait
+13321,stdout,received,'Eye: left, Radius: 5, X: 260, Y: -20'
+13326,Stimulus,presented,2
+13327,Stimulus,presented,46
+13606,Keyboard,received,274,wait
+13606,stdout,received,'Eye: left, Radius: 5, X: 270, Y: -20'
+13615,Stimulus,presented,2
+13616,Stimulus,presented,47
+13767,Keyboard,received,274,wait
+13767,stdout,received,'Eye: left, Radius: 5, X: 270, Y: -30'
+13773,Stimulus,presented,2
+13775,Stimulus,presented,48
+13804,Keyboard,received,275,wait
+13804,stdout,received,'Eye: left, Radius: 5, X: 270, Y: -40'
+13810,Stimulus,presented,2
+13814,Stimulus,presented,49
+14104,Keyboard,received,275,wait
+14104,stdout,received,'Eye: left, Radius: 5, X: 280, Y: -40'
+14109,Stimulus,presented,2
+14110,Stimulus,presented,50
+14246,Keyboard,received,275,wait
+14246,stdout,received,'Eye: left, Radius: 5, X: 290, Y: -40'
+14251,Stimulus,presented,2
+14253,Stimulus,presented,51
+14423,Keyboard,received,274,wait
+14423,stdout,received,'Eye: left, Radius: 5, X: 300, Y: -40'
+14428,Stimulus,presented,2
+14429,Stimulus,presented,52
+14597,Keyboard,received,275,wait
+14597,stdout,received,'Eye: left, Radius: 5, X: 300, Y: -50'
+14601,Stimulus,presented,2
+14603,Stimulus,presented,53
+14941,Keyboard,received,275,wait
+14941,stdout,received,'Eye: left, Radius: 5, X: 310, Y: -50'
+14945,Stimulus,presented,2
+14946,Stimulus,presented,54
+15091,Keyboard,received,275,wait
+15092,stdout,received,'Eye: left, Radius: 5, X: 320, Y: -50'
+15096,Stimulus,presented,2
+15097,Stimulus,presented,55
+15223,Keyboard,received,275,wait
+15223,stdout,received,'Eye: left, Radius: 5, X: 330, Y: -50'
+15227,Stimulus,presented,2
+15228,Stimulus,presented,56
+15694,Keyboard,received,32,wait
+15694,stdout,received,'Eye: left, Radius: 5, X: 340, Y: -50'
+15711,Stimulus,presented,57
+16273,Keyboard,received,32,wait
+16287,Stimulus,presented,58
+16290,Stimulus,presented,59
+17116,Keyboard,received,276,wait
+17116,stdout,received,'Eye: right, Radius: 75, X: 0, Y: 0'
+17126,Stimulus,presented,58
+17129,Stimulus,presented,60
+17286,Keyboard,received,276,wait
+17286,stdout,received,'Eye: right, Radius: 75, X: -10, Y: 0'
+17296,Stimulus,presented,58
+17298,Stimulus,presented,61
+17588,Keyboard,received,274,wait
+17588,stdout,received,'Eye: right, Radius: 75, X: -20, Y: 0'
+17598,Stimulus,presented,58
+17600,Stimulus,presented,62
+17745,Keyboard,received,274,wait
+17745,stdout,received,'Eye: right, Radius: 75, X: -20, Y: -10'
+17756,Stimulus,presented,58
+17757,Stimulus,presented,63
+17909,Keyboard,received,274,wait
+17910,stdout,received,'Eye: right, Radius: 75, X: -20, Y: -20'
+17928,Stimulus,presented,58
+17931,Stimulus,presented,64
+18074,Keyboard,received,274,wait
+18074,stdout,received,'Eye: right, Radius: 75, X: -20, Y: -30'
+18082,Stimulus,presented,58
+18084,Stimulus,presented,65
+18225,Keyboard,received,274,wait
+18225,stdout,received,'Eye: right, Radius: 75, X: -20, Y: -40'
+18235,Stimulus,presented,58
+18238,Stimulus,presented,66
+18358,Keyboard,received,274,wait
+18358,stdout,received,'Eye: right, Radius: 75, X: -20, Y: -50'
+18368,Stimulus,presented,58
+18369,Stimulus,presented,67
+18746,Keyboard,received,32,wait
+18747,stdout,received,'Eye: right, Radius: 75, X: -20, Y: -60'
+18762,Stimulus,presented,68
+19292,Keyboard,received,32,wait
+19308,Stimulus,presented,69
+19310,Stimulus,presented,70
+19756,Keyboard,received,275,wait
+19756,stdout,received,'Eye: left, Radius: 75, X: 0, Y: 0'
+19769,Stimulus,presented,69
+19771,Stimulus,presented,71
+19909,Keyboard,received,275,wait
+19910,stdout,received,'Eye: left, Radius: 75, X: 10, Y: 0'
+19923,Stimulus,presented,69
+19925,Stimulus,presented,72
+20048,Keyboard,received,274,wait
+20048,stdout,received,'Eye: left, Radius: 75, X: 20, Y: 0'
+20061,Stimulus,presented,69
+20064,Stimulus,presented,73
+20205,Keyboard,received,274,wait
+20205,stdout,received,'Eye: left, Radius: 75, X: 20, Y: -10'
+20219,Stimulus,presented,69
+20222,Stimulus,presented,74
+20385,Keyboard,received,274,wait
+20385,stdout,received,'Eye: left, Radius: 75, X: 20, Y: -20'
+20398,Stimulus,presented,69
+20399,Stimulus,presented,75
+20528,Keyboard,received,275,wait
+20528,stdout,received,'Eye: left, Radius: 75, X: 20, Y: -30'
+20545,Stimulus,presented,69
+20547,Stimulus,presented,76
+20760,Keyboard,received,274,wait
+20760,stdout,received,'Eye: left, Radius: 75, X: 30, Y: -30'
+20773,Stimulus,presented,69
+20774,Stimulus,presented,77
+20939,Keyboard,received,275,wait
+20939,stdout,received,'Eye: left, Radius: 75, X: 30, Y: -40'
+20949,Stimulus,presented,69
+20951,Stimulus,presented,78
+21081,Keyboard,received,274,wait
+21082,stdout,received,'Eye: left, Radius: 75, X: 40, Y: -40'
+21093,Stimulus,presented,69
+21095,Stimulus,presented,79
+21169,Keyboard,received,275,wait
+21169,stdout,received,'Eye: left, Radius: 75, X: 40, Y: -50'
+21181,Stimulus,presented,69
+21182,Stimulus,presented,80
+21303,Keyboard,received,274,wait
+21303,stdout,received,'Eye: left, Radius: 75, X: 50, Y: -50'
+21315,Stimulus,presented,69
+21318,Stimulus,presented,81
+21392,Keyboard,received,275,wait
+21392,stdout,received,'Eye: left, Radius: 75, X: 50, Y: -60'
+21404,Stimulus,presented,69
+21406,Stimulus,presented,82
+21536,Keyboard,received,274,wait
+21536,stdout,received,'Eye: left, Radius: 75, X: 60, Y: -60'
+21545,Stimulus,presented,69
+21547,Stimulus,presented,83
+21786,Keyboard,received,274,wait
+21786,stdout,received,'Eye: left, Radius: 75, X: 60, Y: -70'
+21799,Stimulus,presented,69
+21801,Stimulus,presented,84
+22012,Keyboard,received,274,wait
+22012,stdout,received,'Eye: left, Radius: 75, X: 60, Y: -80'
+22030,Stimulus,presented,69
+22033,Stimulus,presented,85
+22224,Keyboard,received,274,wait
+22224,stdout,received,'Eye: left, Radius: 75, X: 60, Y: -90'
+22236,Stimulus,presented,69
+22238,Stimulus,presented,86
+22354,Keyboard,received,275,wait
+22354,stdout,received,'Eye: left, Radius: 75, X: 60, Y: -100'
+22366,Stimulus,presented,69
+22368,Stimulus,presented,87
+22586,Keyboard,received,275,wait
+22586,stdout,received,'Eye: left, Radius: 75, X: 70, Y: -100'
+22594,Stimulus,presented,69
+22596,Stimulus,presented,88
+22665,Keyboard,received,274,wait
+22665,stdout,received,'Eye: left, Radius: 75, X: 80, Y: -100'
+22682,Stimulus,presented,69
+22683,Stimulus,presented,89
+22806,Keyboard,received,275,wait
+22806,stdout,received,'Eye: left, Radius: 75, X: 80, Y: -110'
+22813,Stimulus,presented,69
+22815,Stimulus,presented,90
+22907,Keyboard,received,274,wait
+22907,stdout,received,'Eye: left, Radius: 75, X: 90, Y: -110'
+22925,Stimulus,presented,69
+22930,Stimulus,presented,91
+23028,Keyboard,received,275,wait
+23028,stdout,received,'Eye: left, Radius: 75, X: 90, Y: -120'
+23045,Stimulus,presented,69
+23050,Stimulus,presented,92
+23106,Keyboard,received,274,wait
+23107,stdout,received,'Eye: left, Radius: 75, X: 100, Y: -120'
+23122,Stimulus,presented,69
+23126,Stimulus,presented,93
+23244,Keyboard,received,275,wait
+23244,stdout,received,'Eye: left, Radius: 75, X: 100, Y: -130'
+23256,Stimulus,presented,69
+23259,Stimulus,presented,94
+23354,Keyboard,received,274,wait
+23354,stdout,received,'Eye: left, Radius: 75, X: 110, Y: -130'
+23371,Stimulus,presented,69
+23373,Stimulus,presented,95
+23517,Keyboard,received,275,wait
+23518,stdout,received,'Eye: left, Radius: 75, X: 110, Y: -140'
+23533,Stimulus,presented,69
+23536,Stimulus,presented,96
+23587,Keyboard,received,274,wait
+23587,stdout,received,'Eye: left, Radius: 75, X: 120, Y: -140'
+23599,Stimulus,presented,69
+23602,Stimulus,presented,97
+23739,Keyboard,received,275,wait
+23739,stdout,received,'Eye: left, Radius: 75, X: 120, Y: -150'
+23753,Stimulus,presented,69
+23758,Stimulus,presented,98
+23802,Keyboard,received,274,wait
+23802,stdout,received,'Eye: left, Radius: 75, X: 130, Y: -150'
+23819,Stimulus,presented,69
+23823,Stimulus,presented,99
+23947,Keyboard,received,275,wait
+23947,stdout,received,'Eye: left, Radius: 75, X: 130, Y: -160'
+23963,Stimulus,presented,69
+23965,Stimulus,presented,100
+24198,Keyboard,received,275,wait
+24198,stdout,received,'Eye: left, Radius: 75, X: 140, Y: -160'
+24210,Stimulus,presented,69
+24212,Stimulus,presented,101
+24552,Keyboard,received,275,wait
+24552,stdout,received,'Eye: left, Radius: 75, X: 150, Y: -160'
+24572,Stimulus,presented,69
+24574,Stimulus,presented,102
+25261,Keyboard,received,32,wait
+25261,stdout,received,'Eye: left, Radius: 75, X: 160, Y: -160'
+25263,Experiment,ended
+25298,Data,saved
