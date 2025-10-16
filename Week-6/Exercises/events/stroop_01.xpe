@@ -1,0 +1,126 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Wed Oct 15 2025 16:58:49
+#sha1: 76929b
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+2973,design,log,
+#design: #exp: Stroop
+#design: #dvn: block_cnt,trial_cnt,trial_type,word,color,RT,correct
+#design: block_cnt,block_id,trial_cnt,trial_id
+2973,design,logged,
+2973,Experiment,started
+3086,Stimulus,presented,20
+5737,Keyboard,received,13,wait
+5738,Stimulus,presented,0
+6238,Stimulus,presented,11
+11218,Keyboard,received,106,wait
+11218,Stimulus,presented,17
+12218,Stimulus,presented,0
+12719,Stimulus,presented,1
+13767,Keyboard,received,106,wait
+13768,Stimulus,presented,17
+14767,Stimulus,presented,0
+15268,Stimulus,presented,6
+16092,Keyboard,received,106,wait
+16092,Stimulus,presented,17
+17092,Stimulus,presented,0
+17593,Stimulus,presented,6
+18245,Keyboard,received,106,wait
+18245,Stimulus,presented,17
+19245,Stimulus,presented,0
+19746,Stimulus,presented,1
+20422,Keyboard,received,106,wait
+20422,Stimulus,presented,17
+21422,Stimulus,presented,0
+21923,Stimulus,presented,11
+22500,Keyboard,received,106,wait
+22500,Stimulus,presented,17
+23500,Stimulus,presented,0
+24001,Stimulus,presented,13
+26871,Keyboard,received,106,wait
+26871,Stimulus,presented,18
+27871,Stimulus,presented,0
+28372,Stimulus,presented,6
+29363,Keyboard,received,106,wait
+29364,Stimulus,presented,17
+30363,Stimulus,presented,0
+30864,Stimulus,presented,2
+31294,Keyboard,received,102,wait
+31295,Stimulus,presented,17
+32294,Stimulus,presented,0
+32795,Stimulus,presented,14
+44957,Keyboard,received,102,wait
+44957,Stimulus,presented,17
+45957,Stimulus,presented,0
+46458,Stimulus,presented,15
+47064,Keyboard,received,102,wait
+47064,Stimulus,presented,17
+48064,Stimulus,presented,0
+48565,Stimulus,presented,9
+48904,Keyboard,received,102,wait
+48904,Stimulus,presented,17
+49904,Stimulus,presented,0
+50406,Stimulus,presented,1
+50630,Keyboard,received,106,wait
+50630,Stimulus,presented,17
+51630,Stimulus,presented,0
+52131,Stimulus,presented,11
+52345,Keyboard,received,102,wait
+52346,Stimulus,presented,18
+53345,Stimulus,presented,0
+53846,Stimulus,presented,5
+61978,Keyboard,received,102,wait
+61979,Stimulus,presented,17
+62978,Stimulus,presented,0
+63479,Stimulus,presented,6
+66482,Keyboard,received,106,wait
+66483,Stimulus,presented,17
+67483,Stimulus,presented,0
+67984,Stimulus,presented,1
+68204,Keyboard,received,102,wait
+68205,Stimulus,presented,18
+69204,Stimulus,presented,0
+69705,Stimulus,presented,5
+70356,Keyboard,received,102,wait
+70356,Stimulus,presented,17
+71356,Stimulus,presented,0
+71857,Stimulus,presented,2
+72104,Keyboard,received,102,wait
+72105,Stimulus,presented,17
+73104,Stimulus,presented,0
+73605,Stimulus,presented,8
+73807,Keyboard,received,102,wait
+73807,Stimulus,presented,17
+74807,Stimulus,presented,0
+75308,Stimulus,presented,16
+75921,Keyboard,received,102,wait
+75921,Stimulus,presented,18
+76921,Stimulus,presented,0
+77422,Stimulus,presented,11
+77853,Keyboard,received,102,wait
+77854,Stimulus,presented,18
+78853,Stimulus,presented,0
+79354,Stimulus,presented,6
+92354,Keyboard,received,106,wait
+92509,Stimulus,presented,17
+93354,Stimulus,presented,0
+93855,Stimulus,presented,15
+93886,Keyboard,received,106,wait
+93886,Stimulus,presented,18
+94886,Stimulus,presented,0
+95396,Stimulus,presented,3
+95538,Keyboard,received,106,wait
+95539,Stimulus,presented,18
+96538,Stimulus,presented,0
+97040,Stimulus,presented,2
+131187,stderr,received,'Traceback (most recent call last):'
+131188,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-6\\Exercises\\stroop.py", line 92, in <module>'
+131191,stderr,received,'    run_trial(block_id, trial_id, trial_type, word, color)'
+131191,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-6\\Exercises\\stroop.py", line 77, in run_trial'
+131192,stderr,received,'    key, rt = exp.keyboard.wait(KEYS)'
+131192,stderr,received,'  File "C:\\Users\\omriz\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\expyriment\\io\\_keyboard.py", line 343, in wait'
+131403,stderr,received,'    time.sleep(0.0005)'
+131404,stderr,received,'KeyboardInterrupt'
+131505,Data,saved

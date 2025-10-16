@@ -1,0 +1,19 @@
+#Expyriment 0.10.0 (Python 3.8.10), .xpe-file, coding: cp1252
+#date: Wed Oct 15 2025 16:52:22
+#sha1: 98e7a4
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='Omrizt17', release='10', version='10.0.26100', machine='AMD64', processor='Intel64 Family 6 Model 140 Stepping 2, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+1983,stderr,received,'Traceback (most recent call last):'
+1983,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-6\\Exercises\\stroop.py", line 59, in <module>'
+1985,stderr,received,'    load([stims[w][c] for w in COLORS for c in COLORS])'
+1985,stderr,received,'  File "C:\\Users\\omriz\\OneDrive\\Documents\\M1 CogSup\\Experimental_Approach\\Programming\\Assignments\\Week-6\\Exercises\\stroop.py", line 27, in load'
+1985,stderr,received,'    stim.preload()'
+1985,stderr,received,'  File "C:\\Users\\omriz\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1076, in preload'
+2018,stderr,received,'    self._get_surface(),'
+2018,stderr,received,'  File "C:\\Users\\omriz\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 495, in _get_surface'
+2019,stderr,received,'    tmp = self._create_surface()'
+2019,stderr,received,'  File "C:\\Users\\omriz\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\expyriment\\stimuli\\_textline.py", line 289, in _create_surface'
+2051,stderr,received,'    surface = _font.render(_text, True, self.text_colour)'
+2051,stderr,received,'TypeError: Invalid foreground RGBA argument'
