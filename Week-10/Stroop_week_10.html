@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Stroop Task</title>
+    <script src="https://unpkg.com/jspsych@8.0.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.0.0"></script>
+    <link href="https://unpkg.com/jspsych@8.0.2/css/jspsych.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+</body>
+
+<script type="text/javascript">
+    // ---- BASIC SETTINGS ----
+    const COLORS = ["RED", "GREEN", "BLUE", "YELLOW"];
+
+    const KEY_MAPPING = {
+        RED: 'f',
+        GREEN: 'g',
+        BLUE: 'h',
+        YELLOW: 'j'
+    };
+
+    const FIXATION_DURATION = 500; // ms
+    const BLANK_DURATION = 100;    // ms
+
+    // Create a small Stroop set (16 trials: 4 words × 4 colors)
+    function generateStroopTrials() {
+        let trials = [];
+        for (let word of COLORS) {
+            for (let ink of COLORS) {
+                trials.push({
+                    word: word,
+                    ink: ink
+                });
+            }
+        }
+        return jsPsych.randomization.shuffle(trials);
+    }
+
+    const jsPsych = initJsPsych({
+        on_finish: function () {
+            // Save results (optional)
+            jsPsych.data.get().localSave('csv', 'stroop_results.csv');
+            document.body.innerHTML = "<h2>Thank you for participating!</h2>";
+        }
+    });
+
+    // ---- INTRO SCREEN ----
+    const intro = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: `
+            <h2>Stroop Task</h2>
+            <p>Your task is to report the <b>COLOR</b> of the text, not the word meaning.</p>
+            <p>Use these keys:</p>
+            <p>F = RED | G = GREEN | H = BLUE | J = YELLOW</p>
+            <p>Press any key to begin.</p>
+        `
+    };
+
+    let timeline = [intro];
+
+    // ---- GENERATE TRIALS ----
+    const trials = generateStroopTrials();
+
+    // ---- TRIAL STRUCTURE ----
+    for (let t of trials) {
+
+        // Fixation cross
+        timeline.push({
+            type: jsPsychHtmlKeyboardResponse,
+            stimulus: "<p style='font-size:48px;'>+</p>",
+            choices: "NO_KEYS",
+            trial_duration: FIXATION_DURATION
+        });
+
+        // Stroop stimulus
+        timeline.push({
+            type: jsPsychHtmlKeyboardResponse,
+            stimulus: `<p style='color:${t.ink.toLowerCase()}; font-size:48px;'>${t.word}</p>`,
+            choices: Object.values(KEY_MAPPING),
+            data: t,
+            on_finish: function (data) {
+                const correctKey = KEY_MAPPING[t.ink];
+                data.correct = (data.response === correctKey);
+            }
+        });
+
+        // Blank screen
+        timeline.push({
+            type: jsPsychHtmlKeyboardResponse,
+            stimulus: "",
+            choices: "NO_KEYS",
+            trial_duration: BLANK_DURATION
+        });
+    }
+
+    // ---- RUN ----
+    jsPsych.run(timeline);
+</script>
+
+</html>
